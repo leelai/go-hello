@@ -28,5 +28,18 @@ $ hello
 Hello, Go!
 ```
 
+## Testing
+
+```
+➜  morestrings git:(main) ✗ go test -run ”
+testing: warning: no tests to run
+PASS
+ok      example.com/user/hello/morestrings      0.078s
+➜  go-hello✗ cd morestrings 
+➜  morestrings✗ go test
+PASS
+ok      example.com/user/hello/morestrings      0.271s
+```
+
 ## Reference
 - https://golang.org/doc/code
