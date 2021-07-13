@@ -41,5 +41,12 @@ PASS
 ok      example.com/user/hello/morestrings      0.271s
 ```
 
+## Document
+
+```
+godoc --http :6060
+```
+Visit http://localhost:6060/
+
 ## Reference
 - https://golang.org/doc/code
