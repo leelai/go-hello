@@ -31,22 +31,10 @@ Hello, Go!
 ## Testing
 
 ```
-➜  morestrings git:(main) ✗ go test -run ”
-testing: warning: no tests to run
-PASS
-ok      example.com/user/hello/morestrings      0.078s
-➜  go-hello✗ cd morestrings 
-➜  morestrings✗ go test
+$cd morestrings
+$go test
 PASS
 ok      example.com/user/hello/morestrings      0.271s
 ```
-
-## Document
-
-```
-godoc --http :6060
-```
-Visit http://localhost:6060/
-
 ## Reference
 - https://golang.org/doc/code
